@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'motion/react';
-import { Share2, Briefcase, MessageCircle, PenTool, CheckCircle2, ChevronDown, Target } from 'lucide-react';
+import { Share2, Briefcase, MessageCircle, PenTool, CheckCircle2, ChevronDown, Target, Calculator } from 'lucide-react';
 import { useState } from 'react';
 
 const services = [
@@ -61,6 +61,18 @@ const services = [
       'Prospecting via LinkedIn & web scraping 🕵️‍♂️',
       'Verifying email addresses 📧',
       'Managing CRM data (HubSpot, Apollo.io) 📊'
+    ]
+  },
+  {
+    title: 'Basic Bookkeeping',
+    description: 'Keeping your business financial records accurate, organized, and up-to-date so you are always tax-ready and have clear visibility into your cash flow.',
+    benefit: 'Saves you hours of stress at tax time and gives you real-time insight into your business expenses and revenues.',
+    icon: Calculator,
+    details: [
+      'Tracking daily expenses and transactions 🧾',
+      'Invoicing clients and following up on payments 💵',
+      'Reconciling bank and credit card accounts 🏦',
+      'Managing receipts and generating monthly expense reports 📊'
     ]
   },
 ];

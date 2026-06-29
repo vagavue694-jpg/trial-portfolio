@@ -3,7 +3,8 @@ import { motion } from 'motion/react';
 const tools = [
   "Google Workspace", "Trello", "Canva", "Capcut", 
   "Google Sheets", "Google Docs", "Meta Business", "Shopify", 
-  "Notion", "PhotoPea", "Apollo.ai", "Calendly", "ChatGPT", "Claude.ai"
+  "Notion", "PhotoPea", "Apollo.ai", "Calendly", "ChatGPT", "Claude.ai",
+  "QuickBooks", "Microsoft Excel"
 ];
 
 export default function Tools() {
