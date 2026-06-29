@@ -6,7 +6,7 @@ const works = [
     title: 'Local Engineering Services Support',
     category: 'Engineering & Field Support',
     description: 'Managed client dispatch, tracked steel and fabrication procurement logs, formatted engineering proposals, and coordinated permit liaisons for a local structural engineering practice.',
-    image: 'public/asset/Enscape 01.png',
+    image: 'public/asset/Local Engineering Services Support photo.png',
     link: 'https://youtube.com/shorts/gwy3Lph--9M?feature=share'
   },
   {
@@ -20,7 +20,7 @@ const works = [
     title: 'Podcast Launch & Management',
     category: 'Content Administration',
     description: 'Coordinated guest outreach, episode scheduling, and show notes generation for an entrepreneurship podcast.',
-    image: 'public/asset/podcast photo 01.png'
+    image: 'public/asset/Podcast Launch & Management photo.png'
   },
   {
     title: 'E-commerce Inbox Zero',

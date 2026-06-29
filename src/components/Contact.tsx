@@ -30,14 +30,14 @@ export default function Contact() {
             </div>
 
             <div>
-              <h4 className="font-medium text-stone-900">LinkedIn</h4>
+              <h4 className="font-medium text-stone-900">My LinkedIn</h4>
               <a 
                 href="https://www.linkedin.com/in/liuqing-va-virtualassistant-adminsupportleadgenerationsocialmediamanagementecommerceproductlister/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-stone-500 hover:text-stone-900 transition-colors break-all block"
               >
-                www.linkedin.com/in/liuqing-va-virtualassistant-adminsupportleadgenerationsocialmediamanagementecommerceproductlister 🔗
+                Message me now! 🔗
               </a>
             </div>
 
