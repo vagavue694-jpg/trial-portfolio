@@ -30,6 +30,19 @@ const works = [
   }
 ];
 
+const getImageUrl = (imagePath: string) => {
+  if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) {
+    return imagePath;
+  }
+  let cleanPath = imagePath;
+  if (cleanPath.startsWith('public/')) {
+    cleanPath = cleanPath.substring(7);
+  } else if (cleanPath.startsWith('/')) {
+    cleanPath = cleanPath.substring(1);
+  }
+  return `${import.meta.env.BASE_URL}${cleanPath}`;
+};
+
 export default function Portfolio() {
   return (
     <section id="portfolio" className="py-24 bg-stone-50">
@@ -92,7 +105,7 @@ export default function Portfolio() {
                 >
                   <div className="relative overflow-hidden rounded-2xl mb-6 aspect-video bg-stone-200">
                     <img 
-                      src={work.image} 
+                      src={getImageUrl(work.image)} 
                       alt={work.title} 
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-in-out"
                     />
